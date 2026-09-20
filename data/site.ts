@@ -95,7 +95,7 @@ export const services: Service[] = [
   {
     title: "Web Scraping",
     description: "Extract structured data from websites and turn scattered information into organized, usable datasets.",
-    image: "/images/services/WebScrapping.jpg",
+    image: "/MyPortfolio/images/services/WebScrapping.jpg",
     included: ["Data extraction", "Cleaning", "Duplicate removal", "CSV / Excel export"],
     tools: ["Python", "Pandas", "BeautifulSoup"],
     price: "$10",
@@ -104,7 +104,7 @@ export const services: Service[] = [
   {
     title: "Python Automation",
     description: "Automate repetitive work, remove manual bottlenecks, and improve reliability across business processes.",
-    image: "/images/services/Automation.jpg",
+    image: "/MyPortfolio/images/services/Automation.jpg",
     included: ["Task automation", "Workflow design", "Script deployment", "Monitoring"],
     tools: ["Python", "Selenium", "Playwright"],
     price: "$5",
@@ -113,7 +113,7 @@ export const services: Service[] = [
   {
     title: "Data Cleaning",
     description: "Normalize messy records, remove inconsistencies, and prepare clean data for analysis or systems integration.",
-    image: "/images/services/DataCleaninng.jpg",
+    image: "/MyPortfolio/images/services/DataCleaninng.jpg",
     included: ["Validation", "Standardization", "Deduplication", "Data preparation"],
     tools: ["Python", "Pandas", "Excel", "CSV"],
     price: "$10",
@@ -122,7 +122,7 @@ export const services: Service[] = [
   {
     title: "Data Processing",
     description: "Transform raw records into structured outputs for reporting, operations, and downstream products.",
-    image: "/images/services/DataProceessing.jpg",
+    image: "/MyPortfolio/images/services/DataProceessing.jpg",
     included: ["Raw data handling", "Transformation", "Output structuring", "Reporting support"],
     tools: ["Python", "Pandas", "NumPy"],
     price: "$10",
@@ -131,7 +131,7 @@ export const services: Service[] = [
   {
     title: "Excel / CSV Data Preparation",
     description: "Clean and format spreadsheets into dependable datasets that are ready for use and sharing.",
-    image: "/images/services/Data Preparation.jpg",
+    image: "/MyPortfolio/images/services/Data Preparation.jpg",
     included: ["Sheet cleanup", "Formatting", "Table conversion", "Dataset readiness"],
     tools: ["Excel", "CSV", "Python", "Pandas"],
     price: "$10",
@@ -140,7 +140,7 @@ export const services: Service[] = [
   {
     title: "Scraping → Cleaning → Processing",
     description: "A complete pipeline that turns raw internet data into ready-to-use structured information.",
-    image: "/images/services/Final.jpg",
+    image: "/MyPortfolio/images/services/Final.jpg",
     included: ["Extraction", "Cleaning", "Processing", "Final dataset delivery"],
     tools: ["Python", "BeautifulSoup", "Pandas", "Excel"],
     price: "$10",
@@ -152,7 +152,7 @@ export const featuredProject: Project = {
   title: "Yelp Business Data Scraping & Processing Platform",
   description:
     "Built a Streamlit tool that collects Yelp data by search term, city, and pages, then cleans, removes duplicates, sorts by ratings and reviews, and exports the results to Excel.",
-  image: "/images/projects/Yelp.jpg",
+  image: "/MyPortfolio/images/projects/Yelp.jpg",
   technologies: ["Python", "Scraping", "Pandas", "Data Cleaning", "Automation"],
   github: "https://github.com/Es5am/Yelp-Leads-Scraper-1",
   demo: "https://es5am.github.io/Yelp-Leads-Scraper-Show/",
@@ -163,7 +163,7 @@ export const projectCollection: Project[] = [
   {
     title: "Books Website Scraper",
     description: "Collected structured book information and organized it for easier review and dataset use.",
-    image: "/images/projects/Books.jpg",
+    image: "/MyPortfolio/images/projects/Books.jpg",
     technologies: ["Python", "BeautifulSoup", "Scraping"],
     github: "https://github.com/Es5am/Problem-Solving/tree/main/Advanced%20Applications/Beautiful_Soup/2",
     demo: "https://youtu.be/0oA5OjNWBRI",
@@ -171,7 +171,7 @@ export const projectCollection: Project[] = [
   {
     title: "Jobs Website Scraper",
     description: "A collection of Python scraping projects focused on collecting, cleaning, organizing, and exporting website data.",
-    image: "/images/projects/Job_Scrapper.png",
+    image: "/MyPortfolio/images/projects/Job_Scrapper.png",
     technologies: ["Python", "Selenium", "Automation"],
     github: "https://github.com/Es5am/Problem-Solving/tree/main/Advanced%20Applications/Beautiful_Soup/1",
     demo: "https://youtu.be/8d3NRzr2LBE",
@@ -179,7 +179,7 @@ export const projectCollection: Project[] = [
   {
     title: "Web Scraping & Automation Scripts",
     description: "Practical scripts focused on gathering, transforming, and structuring business and web data.",
-    image: "/images/projects/Other Web Scraping .png",
+    image: "/MyPortfolio/images/projects/Other Web Scraping .png",
     technologies: ["Python", "Data Processing", "Automate"],
     github: "https://github.com/Es5am/Problem-Solving/tree/main/Advanced%20Applications/Selenium/Bot_With_OOP",
     demo: "https://youtu.be/Q1XEKvbi8H8",
@@ -189,7 +189,7 @@ export const projectCollection: Project[] = [
 export const flaskProject: Project = {
   title: "Flask Project",
   description: "Built a Flask application connecting Python logic with HTML, CSS, JavaScript, and Jinja to create a dynamic web interface.",
-  image: "/images/projects/Flask.png",
+  image: "/MyPortfolio/images/projects/Flask.png",
   technologies: ["Python", "Flask", "Jinja", "HTML", "CSS", "JavaScript"],
   github: "https://github.com/Es5am/Problem-Solving/tree/main/Advanced%20Applications/Flask",
   demo: "https://youtu.be/uGrkI1oevZY",
@@ -220,7 +220,7 @@ export const problemSolvingLinks = {
 export const academicProject: Project = {
   title: "Academic Programming Projects",
   description: "Python, Java, OOP, and programming fundamentals projects developed through academic practice.",
-  image: "/images/projects/automation-scripts.svg",
+  image: "/MyPortfolio/images/projects/automation-scripts.svg",
   technologies: ["Python", "Java", "OOP", "Programming Fundamentals"],
   github: "https://github.com/Es5am/Academic-Programming-Projects",
   demo: "https://es5am.github.io/Academic-Programming-Show/",
@@ -229,7 +229,7 @@ export const academicProject: Project = {
 export const machineLearningProject: Project = {
   title: "Machine Learning — Practical Work",
   description: "Currently applying ML concepts through DEPI assignments and practical implementations.",
-  image: "/images/ml/malern.jpg",
+  image: "/MyPortfolio/images/ml/malern.jpg",
   technologies: ["Python", "NumPy", "Pandas", "Scikit-learn"],
   github: "https://github.com/Es5am/Machine-Learning/tree/main",
   demo: "https://es5am.github.io/Machine-Learning-Show/",
@@ -238,7 +238,7 @@ export const machineLearningProject: Project = {
 export const leetcodeProject: Project = {
   title: "LeetCode Problem Solving",
   description: "Solved around 25 LeetCode problems with explanations, focusing on algorithms, data structures, and breaking problems into smaller steps.",
-  image: "/images/projects/automation-scripts.svg",
+  image: "/MyPortfolio/images/projects/automation-scripts.svg",
   technologies: ["Algorithms", "Data Structures", "LeetCode"],
   github: "https://github.com/Es5am/Problem-Solving",
   demo: "https://es5am.github.io/Problem-Solving-Show/",
@@ -255,14 +255,14 @@ export const presentations: Presentation[] = [
   {
     title: "College Presentation",
     description: "A visual college presentation where I focused on organizing information clearly and presenting ideas through a structured and engaging design.",
-    image: "/images/presentations/collage.jpg",
+    image: "/MyPortfolio/images/presentations/collage.jpg",
     viewUrl: "https://drive.google.com/drive/folders/1qUIoBp0YdhArFyYAsp0q7ywM-_4prGVn",
     watchUrl: "https://youtu.be/_rBBqCiaoD4",
   },
   {
     title: "Scholarship Presentation",
     description: "A scholarship presentation where I combined clear content with strong visual design to communicate in an organized and engaging way.",
-    image: "/images/presentations/Scolar.jpg",
+    image: "/MyPortfolio/images/presentations/Scolar.jpg",
     viewUrl: "https://drive.google.com/drive/folders/1eNuwQ2vkNdCjWr3-6DGbK_pR48IBckMH",
     watchUrl: "https://youtu.be/ej0hjLsC2jM",
   },
@@ -291,6 +291,6 @@ export const contactLinks = {
 
 export const whatsappNumber = "201286335919";
 
-export const profileImage = "/images/profile/1600.jpg";
+export const profileImage = "/MyPortfolio/images/profile/1600.jpg";
 
-export const mlImage = "/images/ml/malern.jpg";
+export const mlImage = "/MyPortfolio/images/ml/malern.jpg";
