@@ -93,24 +93,6 @@ export const journey: JourneyItem[] = [
 
 export const services: Service[] = [
   {
-    title: "Web Scraping",
-    description: "Extract structured data from websites and turn scattered information into organized, usable datasets.",
-    image: "/MyPortfolio/images/services/WebScrapping.jpg",
-    included: ["Data extraction", "Cleaning", "Duplicate removal", "CSV / Excel export"],
-    tools: ["Python", "Pandas", "BeautifulSoup"],
-    price: "$10",
-    whatsappMessage: "Hi Essam, I’d like to discuss your Web Scraping service.",
-  },
-  {
-    title: "Python Automation",
-    description: "Automate repetitive work, remove manual bottlenecks, and improve reliability across business processes.",
-    image: "/MyPortfolio/images/services/Automation.jpg",
-    included: ["Task automation", "Workflow design", "Script deployment", "Monitoring"],
-    tools: ["Python", "Selenium", "Playwright"],
-    price: "$5",
-    whatsappMessage: "Hi Essam, I’d like to discuss your Python Automation service.",
-  },
-  {
     title: "Data Cleaning",
     description: "Normalize messy records, remove inconsistencies, and prepare clean data for analysis or systems integration.",
     image: "/MyPortfolio/images/services/DataCleaninng.jpg",
@@ -118,15 +100,6 @@ export const services: Service[] = [
     tools: ["Python", "Pandas", "Excel", "CSV"],
     price: "$10",
     whatsappMessage: "Hi Essam, I’d like to discuss your Data Cleaning service.",
-  },
-  {
-    title: "Data Processing",
-    description: "Transform raw records into structured outputs for reporting, operations, and downstream products.",
-    image: "/MyPortfolio/images/services/DataProceessing.jpg",
-    included: ["Raw data handling", "Transformation", "Output structuring", "Reporting support"],
-    tools: ["Python", "Pandas", "NumPy"],
-    price: "$10",
-    whatsappMessage: "Hi Essam, I’d like to discuss your Data Processing service.",
   },
   {
     title: "Excel / CSV Data Preparation",
@@ -138,14 +111,41 @@ export const services: Service[] = [
     whatsappMessage: "Hi Essam, I’d like to discuss your Excel / CSV Data Preparation service.",
   },
   {
+    title: "Data Processing",
+    description: "Transform raw records into structured outputs for reporting, operations, and downstream products.",
+    image: "/MyPortfolio/images/services/DataProceessing.jpg",
+    included: ["Raw data handling", "Transformation", "Output structuring", "Reporting support"],
+    tools: ["Python", "Pandas", "NumPy"],
+    price: "$15",
+    whatsappMessage: "Hi Essam, I’d like to discuss your Data Processing service.",
+  },
+  {
+    title: "Python Automation",
+    description: "Automate repetitive work, remove manual bottlenecks, and improve reliability across business processes.",
+    image: "/MyPortfolio/images/services/Automation.jpg",
+    included: ["Task automation", "Workflow design", "Script deployment", "Monitoring"],
+    tools: ["Python", "Selenium", "Playwright"],
+    price: "$15",
+    whatsappMessage: "Hi Essam, I’d like to discuss your Python Automation service.",
+  },
+  {
+    title: "Web Scraping",
+    description: "Extract structured data from websites and turn scattered information into organized, usable datasets.",
+    image: "/MyPortfolio/images/services/WebScrapping.jpg",
+    included: ["Data extraction", "Cleaning", "Duplicate removal", "CSV / Excel export"],
+    tools: ["Python", "Pandas", "BeautifulSoup"],
+    price: "$20",
+    whatsappMessage: "Hi Essam, I’d like to discuss your Web Scraping service.",
+  },
+  {
     title: "Scraping → Cleaning → Processing",
     description: "A complete pipeline that turns raw internet data into ready-to-use structured information.",
     image: "/MyPortfolio/images/services/Final.jpg",
     included: ["Extraction", "Cleaning", "Processing", "Final dataset delivery"],
     tools: ["Python", "BeautifulSoup", "Pandas", "Excel"],
-    price: "$10",
+    price: "$25",
     whatsappMessage: "Hi Essam, I’d like to discuss your Scraping → Cleaning → Processing service.",
-  },
+  }
 ];
 
 export const featuredProject: Project = {
