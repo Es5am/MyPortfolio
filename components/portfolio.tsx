@@ -203,7 +203,7 @@ export function PortfolioPage() {
     try {
       const response = await fetch("/MyPortfolio/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "/MyPortfolio/application/json" },
+        headers: { "Content-Type": "/application/json" },
         body: JSON.stringify({ name, email, subject, message }),
       });
 
