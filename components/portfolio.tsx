@@ -201,9 +201,9 @@ export function PortfolioPage() {
     setSubmissionStatus("idle");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/MyPortfolio/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "/MyPortfolio/application/json" },
         body: JSON.stringify({ name, email, subject, message }),
       });
 
