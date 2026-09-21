@@ -201,9 +201,12 @@ export function PortfolioPage() {
     setSubmissionStatus("idle");
 
     try {
-      const response = await fetch("/MyPortfolio/api/contact", {
+      const response = await fetch("https://formspree.io/f/xjykygdl", {
         method: "POST",
-        headers: { "Content-Type": "/application/json" },
+        headers: {
+          "Content-Type": "/application/json",
+          "Accept": "application/json"
+        },
         body: JSON.stringify({ name, email, subject, message }),
       });
 
