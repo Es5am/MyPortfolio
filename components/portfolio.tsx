@@ -280,26 +280,27 @@ export function PortfolioPage() {
 
         <main id="top" className="relative mx-auto max-w-6xl px-4 pb-20 pt-10 sm:px-6 lg:px-8">
           <section className="pb-16 pt-10 md:pb-20">
-            <div className="mx-auto flex max-w-4xl flex-col items-center gap-10 text-center">
-              <div className="relative">
-                <div className="absolute inset-0 -z-10 rounded-full bg-cyan-400/10 blur-3xl" />
-                <div className="overflow-hidden rounded-[2rem] border border-cyan-400/25 bg-[#0A1124]/80 p-3 shadow-[0_0_30px_rgba(24,216,210,0.12)]">
-                  <div className="relative h-[260px] w-[220px] overflow-hidden rounded-[1.7rem] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(19,33,55,0.8),_rgba(7,12,20,0.95))]">
-                    <Image src={profileImage} alt="Essam Mohamed portrait" fill className="object-cover" priority />
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <h1 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl">Essam Mohamed</h1>
+            <div className="mx-auto flex max-w-4xl flex-col items-center gap-10 text-center md:w-full md:flex-row md:justify-between md:text-left">
+              <div className="space-y-4 md:flex-1">
                 <p className="typewriter-title text-lg font-medium tracking-[0.22em] text-cyan-300 uppercase" aria-label="AI Developer">
                   <span>{titleText}</span>
                 </p>
+                <h1 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl">Essam Mohamed</h1>
               </div>
 
-              <div className="flex items-center justify-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1.5 text-xs text-emerald-300">
-                <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />
-                Open to Opportunities
+              <div className="flex flex-col items-center gap-4">
+                <div className="relative">
+                  <div className="absolute inset-0 -z-10 rounded-full bg-cyan-400/10 blur-3xl" />
+                  <div className="overflow-hidden rounded-[2rem] border border-cyan-400/25 bg-[#0A1124]/80 p-3 shadow-[0_0_30px_rgba(24,216,210,0.12)]">
+                    <div className="relative h-[260px] w-[220px] overflow-hidden rounded-[1.7rem] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(19,33,55,0.8),_rgba(7,12,20,0.95))]">
+                      <Image src={profileImage} alt="Essam Mohamed portrait" fill className="object-cover" priority />
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center justify-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1.5 text-xs text-emerald-300">
+                  <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.8)]" />
+                  Open to Opportunities
+                </div>
               </div>
             </div>
           </section>
