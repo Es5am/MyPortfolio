@@ -263,7 +263,7 @@ export const presentations: Presentation[] = [
     title: "Scholarship Presentation",
     description: "A scholarship presentation where I combined clear content with strong visual design to communicate in an organized and engaging way.",
     image: "/MyPortfolio/images/presentations/Scolar.jpg",
-    viewUrl: "https://drive.google.com/drive/folders/1eNuwQ2vkNdCjWr3-6DGbK_pR48IBckMH",
+    viewUrl: "https://drive.google.com/drive/folders/1q2O7eYoHEUpIn5o8urxl_XZDkQkEGFsT?usp=sharing",
     watchUrl: "https://youtu.be/ej0hjLsC2jM",
   },
 ];
